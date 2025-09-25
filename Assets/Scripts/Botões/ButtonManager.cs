@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
+	public GameObject settingsMenu;
    
 	public void BtnPlay()
 	{
@@ -19,6 +20,6 @@ public class ButtonManager : MonoBehaviour
 
 	public void BtnSettings()
 	{
-		
+		settingsMenu.SetActive(true);
 	}
 }
